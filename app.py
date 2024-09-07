@@ -7,5 +7,6 @@ app.register_blueprint(profile_route)
 
 
 
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+# if __name__ == "__main__":
+#     app.run(debug=True, port=5000)
+# gunicorn <module_name>:<instance_name>
